@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'arimoNerdR';
+    src: url(../fonts/Arimo/ArimoNerdFont-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'arimoNerdB';
+    src: url(../fonts/Arimo/ArimoNerdFont-Bold.ttf);
+  }
+  
+
+.ods-title {
+    font-family: 'arimoNerdB';
+    font-size: 2.3em;
+    color: #FFFFFF;
+}

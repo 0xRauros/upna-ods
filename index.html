@@ -11,11 +11,14 @@
     <!-- end of Bootstrap CDN -->
     <!-- Custom CSS -->
     <link rel="stylesheet" href="static/css/base.css">
+    <link rel="stylesheet" href="static/css/navbar.css">
+    <link rel="stylesheet" href="static/css/index.css">
     <!-- end of custom css -->
 </head>
-<body class="">
+<body>
 
     <div class="panel-title title-div">
+
         <!-- Navigation menu bar -->
         <nav class="navbar">
             <a href="/" class="text-left p-2 nav-menu hover-underline-animation">HOME</a>
@@ -27,26 +30,20 @@
         </nav>
 
         <!-- end of navigation menu bar -->
-
         <!-- Content -->
-
-      
             
-                    <div class="jumbotron center ">
-                        <h1 class="text-title">
-                            PACTO NAVARRO
-                            CONTRA LA DESIGUALDAD
-                            Y LA POBREZA
-                        </h1>
-                        <p class="title-date text-white display-6 font-weight-bold">2023 - 2030</p>
-                    </div>
+        <div class="jumbotron center ">
+            <h1 class="text-title">
+                PACTO NAVARRO CONTRA LA DESIGUALDAD Y LA POBREZA
+            </h1>
+            <p class="title-date text-white display-6 font-weight-bold">2023 - 2030</p>
+        </div>
                     
-        
     </div>
     <div class="panel-about">
         <div class="container">
             <br>
-            <h2 class="fancy" style="--w: 50vw;--c: #96BEB4;--b:4px;--g:-5px">Sobre el proyecto</h2> 
+            <h2 class="fancy" style="--w: 50vw;--c: #79c48a;--b:4px;--g:-5px">Sobre el proyecto</h2> 
             <br>
             <div class="text-about fancy-text">
                 <p>
@@ -68,17 +65,21 @@
 
     <!-- Panel links ODS [1, 2, 3, ...] -->
     <div class="panel-ods">
-        <h2 class="fancy" style="--w: 50vw;--c: #96BEB4;--b:4px;--g:-5px">Objetivos Desarrollo Sostenible</h2> 
+        <h2 class="fancy" style="--w: 50vw;--c: #79c48a;--b:4px;--g:-5px">Objetivos Desarrollo Sostenible</h2> 
         <div class="team-grid">
             <div class="container">
 
                 <div class="row people">
+                    <!-- ODS 1 -->
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_1.jpg)">
                             <div class="cover">
-                                <h3 class="name">Ben Johnson</h3>
-                                <p class="title">Musician</p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-outline-danger rounded" type="button">Legislativa</button>
+                                    <button class="btn btn-outline-danger rounded" type="button">Control</button>
+                                    <button class="btn btn-outline-danger rounded" type="button">Económica</button>
+                                </div> 
                             </div>
                         </div>
                     </div>
@@ -119,12 +120,15 @@
                             </div>
                         </div>
                     </div>
+                    <!-- ODS 6 -->
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_6.jpg)">
                             <div class="cover">
-                                <h3 class="name">Emily Clark</h3>
-                                <p class="title">Artist </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-danger rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-danger rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                  </div>                        
                             </div>
                         </div>
                     </div>
@@ -245,21 +249,21 @@
     <div class="panel-logos">
         <div class="container">
             <!-- <h3 class="text-center pt-4 text-white nerd-bold">COLABORADORES</h3> -->
-            <h2 class="fancy" style="--w: 50vw;--c: #96BEB4;--b:4px;--g:-5px">Con la colaboración de</h2> 
+            <h2 class="fancy" style="--w: 50vw;--c: #79c48a;--b:4px;--g:-5px">Con la colaboración de</h2> 
             <br>
             <br>
             <div class="row pt-4">
                 <div class="col">
-                    <img src="static/img/colaboraciones/upna/color/ROJO_UPNA_300ppp.png" width="200px" height="100px" alt="colaborador">
+                    <img src="static/img/colaboraciones/upna/color/ROJO_UPNA_300ppp.png" width="200px" height="100px" alt="colaborador" class="mx-4">
                 </div>
                 <div class="col">
-                    <img src="static/img/colaboraciones/upna/color/ROJO_UPNA_300ppp.png" width="200px" height="100px"  alt="colaborador">
+                    <img src="static/img/colaboraciones/Gobierno de Navarra.jpg" width="300px" height="100px"  alt="colaborador" class="mx-4">
                 </div>
                 <div class="col">
-                    <img src="static/img/colaboraciones/upna/color/ROJO_UPNA_300ppp.png" width="200px" height="100px"  alt="colaborador">
+                    <img src="static/img/colaboraciones/logo-parlamento.png" width="200px" height="100px"  alt="colaborador" class="mx-4">
                 </div>
                 <div class="col">
-                    <img src="static/img/colaboraciones/upna/color/ROJO_UPNA_300ppp.png" width="200px" height="100px"  alt="colaborador">
+                    <img src="static/img/colaboraciones/PES.png" width="200px" height="100px"  alt="colaborador" class="mx-4">
                 </div>
             </div>
         </div>
