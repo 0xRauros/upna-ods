@@ -58,13 +58,13 @@
     left:0;
     width:100%;
     height:100%;
-    background-color:#FFFFFF;
+    background-color:#333333;
     transition:opacity 0.15s ease-in;
     opacity:0;
     padding-top:80px;
-    color: black;
+    color: #ffffff;
     text-shadow:1px 1px 1px rgba(0,0,0,0.15);
-    border-width: 3px;
+    border-width: 5px;
     /* border-color: #96BEB4; */
     border-style: solid;
     border-color: #79c48a;
@@ -138,3 +138,45 @@
   
 
   /* END OF EPIC STYLES */
+
+  /* Panels */
+
+.panel-title {
+  background-color: #79c48a;
+  width: 100%;
+  height: auto;
+}
+
+.panel-about {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: auto;
+  padding-top: 1.5em;
+}
+
+  .panel-ods {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    padding-top: 1.5em;
+  }
+
+
+  .panel-logos {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 200px;
+  }
+
+  .panel-footer {
+    background-color: #333333;
+    width: 100%;
+    height: 200px;
+  }
+
+
+  /* end of panels */
+
+  .title-date {
+    text-align: right;
+  }

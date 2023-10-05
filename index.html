@@ -14,8 +14,15 @@
     <link rel="stylesheet" href="static/css/navbar.css">
     <link rel="stylesheet" href="static/css/index.css">
     <!-- end of custom css -->
+
+    <!-- Animate css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 </head>
-<body>
+<body class="animate__animated animate__slideInUp">
 
     <div class="panel-title title-div">
 
@@ -32,7 +39,7 @@
         <!-- end of navigation menu bar -->
         <!-- Content -->
             
-        <div class="jumbotron center ">
+        <div class="jumbotron center animate__animated animate__fadeInRight animate__delay-1s">
             <h1 class="text-title">
                 PACTO NAVARRO CONTRA LA DESIGUALDAD Y LA POBREZA
             </h1>
@@ -40,10 +47,37 @@
         </div>
                     
     </div>
+
+    <!-- Panel Logos ONGs -->
+    <div class="panel-logos">
+        <div class="container">
+            <!-- <h3 class="text-center pt-4 text-white nerd-bold">COLABORADORES</h3> -->
+            <br>
+            <!-- <h2 class="fancy" style="--w: 50vw;--c: #79c48a;--b:4px;--g:-5px">Con la colaboración de</h2>  -->
+            <br>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <img src="static/img/colaboraciones/upna/color/ROJO_UPNA_300ppp.png" width="200px" height="100px" alt="colaborador" class="mx-4">
+                </div>
+                <div class="col">
+                    <img src="static/img/colaboraciones/Gobierno de Navarra.jpg" width="300px" height="100px"  alt="colaborador" class="mx-4">
+                </div>
+                <div class="col">
+                    <img src="static/img/colaboraciones/logo-parlamento.png" width="200px" height="100px"  alt="colaborador" class="mx-4">
+                </div>
+                <div class="col">
+                    <img src="static/img/colaboraciones/PES.png" width="200px" height="100px"  alt="colaborador" class="mx-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of panel logos ONGs -->
+
     <div class="panel-about">
         <div class="container">
             <br>
-            <h2 class="fancy" style="--w: 50vw;--c: #79c48a;--b:4px;--g:-5px">Sobre el proyecto</h2> 
+            <h2 class="fancy" style="--w: 50vw;--c: #79c48a;--b:4px;--g:-5px">Sobre el pacto</h2> 
             <br>
             <div class="text-about fancy-text">
                 <p>
@@ -76,37 +110,46 @@
                             <div class="cover">
                                 <h3 class="name">FUNCIONES</h3>
                                 <div class="d-grid gap-2 col-6 mx-auto">
-                                    <button class="btn btn-outline-danger rounded" type="button">Legislativa</button>
-                                    <button class="btn btn-outline-danger rounded" type="button">Control</button>
-                                    <button class="btn btn-outline-danger rounded" type="button">Económica</button>
-                                </div> 
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div> 
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_2.jpg)">
                             <div class="cover">
-                                <h3 class="name">Emily Clark</h3>
-                                <p class="title">Artist </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_3.jpg)">
                             <div class="cover">
-                                <h3 class="name">Carl Kent</h3>
-                                <p class="title">Stylist </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_4.jpg)">
                             <div class="cover">
-                                <h3 class="name">Felicia Adams</h3>
-                                <p class="title">Model </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -114,9 +157,12 @@
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_5.png)">
                             <div class="cover">
-                                <h3 class="name">Ben Johnson</h3>
-                                <p class="title">Musician</p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -126,27 +172,34 @@
                             <div class="cover">
                                 <h3 class="name">FUNCIONES</h3>
                                 <div class="d-grid gap-2 col-6 mx-auto">
-                                    <a class="btn btn-outline-danger rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
-                                    <a class="btn btn-outline-danger rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
-                                  </div>                        
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>                       
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_7.png)">
                             <div class="cover">
-                                <h3 class="name">Carl Kent</h3>
-                                <p class="title">Stylist </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_8.png)">
                             <div class="cover">
-                                <h3 class="name">Felicia Adams</h3>
-                                <p class="title">Model </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -154,36 +207,48 @@
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_9.jpg)">
                             <div class="cover">
-                                <h3 class="name">Ben Johnson</h3>
-                                <p class="title">Musician</p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_010.jpg)">
                             <div class="cover">
-                                <h3 class="name">Emily Clark</h3>
-                                <p class="title">Artist </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_011.jpg)">
                             <div class="cover">
-                                <h3 class="name">Carl Kent</h3>
-                                <p class="title">Stylist </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_012.jpg)">
                             <div class="cover">
-                                <h3 class="name">Felicia Adams</h3>
-                                <p class="title">Model </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -191,9 +256,12 @@
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_013.jpg)">
                             <div class="cover">
-                                <h3 class="name">Felicia Adams</h3>
-                                <p class="title">Model </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -201,9 +269,12 @@
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_014.jpg)">
                             <div class="cover">
-                                <h3 class="name">Felicia Adams</h3>
-                                <p class="title">Model </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -211,9 +282,12 @@
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_015.jpg)">
                             <div class="cover">
-                                <h3 class="name">Felicia Adams</h3>
-                                <p class="title">Model </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -221,9 +295,12 @@
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_016.jpg)">
                             <div class="cover">
-                                <h3 class="name">Felicia Adams</h3>
-                                <p class="title">Model </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -231,9 +308,12 @@
                     <div class="col-md-4 col-lg-3 item">
                         <div class="box" style="background-image:url(static/img/ods_logos/ods_017.png)">
                             <div class="cover">
-                                <h3 class="name">Felicia Adams</h3>
-                                <p class="title">Model </p>
-                                <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                                <h3 class="name">FUNCIONES</h3>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-legislativa.html">Legislativa</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Control</a>
+                                    <a class="btn btn-outline-success rounded" href="templates/ods/ods-06/ods-06-control.html">Económica</a>
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -244,31 +324,6 @@
         </div>
     </div>
     <!-- end of panel links ODS -->
-
-    <!-- Panel Logos ONGs -->
-    <div class="panel-logos">
-        <div class="container">
-            <!-- <h3 class="text-center pt-4 text-white nerd-bold">COLABORADORES</h3> -->
-            <h2 class="fancy" style="--w: 50vw;--c: #79c48a;--b:4px;--g:-5px">Con la colaboración de</h2> 
-            <br>
-            <br>
-            <div class="row pt-4">
-                <div class="col">
-                    <img src="static/img/colaboraciones/upna/color/ROJO_UPNA_300ppp.png" width="200px" height="100px" alt="colaborador" class="mx-4">
-                </div>
-                <div class="col">
-                    <img src="static/img/colaboraciones/Gobierno de Navarra.jpg" width="300px" height="100px"  alt="colaborador" class="mx-4">
-                </div>
-                <div class="col">
-                    <img src="static/img/colaboraciones/logo-parlamento.png" width="200px" height="100px"  alt="colaborador" class="mx-4">
-                </div>
-                <div class="col">
-                    <img src="static/img/colaboraciones/PES.png" width="200px" height="100px"  alt="colaborador" class="mx-4">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end of panel logos ONGs -->
 
     <div class="panel-footer"></div>
 

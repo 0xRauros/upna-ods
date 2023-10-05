@@ -5,16 +5,14 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-/* body {
-	background-color: #282828;
-} */
-.page__wrapper {
-	/* height: 100vh; */
-	/* display: flex;
+
+/* .page__wrapper {
+	height: 100vh;
+	display: flex; 
 	justify-content: center;
 	align-items: center;
-	flex-direction: column; */
-}
+	flex-direction: column; 
+} */
 
 .verde {
 	color: #96BEB4;
@@ -39,7 +37,7 @@ details > summary {
 }
 details > p {
 	padding: 5px 10px 10px 20px;
-	color: #ddd;
+	color: #FFFFFF;
 	font-size: 1.1em;
 }
 
@@ -47,3 +45,24 @@ details > p {
     margin-top: 1em;
     padding: 1em;
 }
+
+
+
+.underline {
+	border-bottom: 2px solid currentColor;
+  }
+
+  .second-green {
+	background-color: #8bcf9a;
+  }
+
+  .third-green {
+	background-color: #a2e1b0;
+  }
+
+  .fourth-green {
+	background-color: #b7f3c4;
+  }
+
+
+
