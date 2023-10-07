@@ -139,6 +139,11 @@
 
   /* END OF EPIC STYLES */
 
+  .image-row {
+    display: flex;
+    justify-content: space-between; /* this will add equal space between each image */
+  }
+
   /* Panels */
 
 .panel-title {
@@ -173,6 +178,13 @@
     width: 100%;
     height: 200px;
   }
+
+  .panel-cumplimiento {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 300px;
+  }
+
 
 
   /* end of panels */
