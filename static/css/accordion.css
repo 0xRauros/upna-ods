@@ -44,6 +44,7 @@ details > p {
 .box {
     margin-top: 1em;
     padding: 1em;
+	height: 100%;
 }
 
 

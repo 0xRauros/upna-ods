@@ -1,0 +1,32 @@
+              <!-- Pacto 7 -->
+              <details>
+                <summary>
+                    <strong>
+                        Anualmente, el Parlamento supervisará y hará seguimiento con el Gobierno de 
+                        Navarra de la coordinación efectiva con el Alto Comisionado contra la Pobreza Infantil.          
+                    </strong>
+                </summary>
+                <hr style="background: #FFFFFF; height: 9px;">
+                <details>
+                  <summary><strong class="text-white">INDICADORES</strong></summary>
+                  <hr style="background: #FFFFFF; height: 6px;">
+                  <!-- Indicador 1 -->
+                  <details>
+                    <summary><strong>Coordinación GN/alto comisionado.</strong></summary>
+                    <hr style="background: #FFFFFF; height: 3px;">
+                      <p><strong class="underline">Descripción</strong>: 
+                        Pregunta al Gobierno.
+                        0/1/2  
+                    </p>
+                    <p><strong class="underline">Fuentes de origen</strong>: 
+                        <a class="text-white underline" target="_blank" href="https://www.comisionadopobrezainfantil.gob.es/">
+                            https://www.comisionadopobrezainfantil.gob.es/
+                    </p>
+                    <p><Strong class="underline">Periodicidad</Strong>: Anual.</p>
+                    <p><strong class="underline">Acciones de desarrollar</strong>: Pregunta parlamentaria o petición de información.</p>
+                    <p><Strong class="underline">Línea de base</Strong>: 0</p>
+                    <p><strong class="underline">Meta 2030</strong>: 2</p>
+                    <p><strong class="underline">Organismo responsable</strong>: Grupos parlamentarios</p>
+                    </details>
+                </details>
+              </details>
