@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gpt.css">
+    <script src="script.js" defer></script>
+    <title>Acordeón Anidado</title>
+</head>
+<body>
+    <div class="acordeon">
+        <div class="item">
+            <button class="toggle">Sección 1</button>
+            <div class="content">
+                <p>Contenido de la sección 1.</p>
+                <div class="sub-acordeon">
+                    <div class="sub-item">
+                        <button class="toggle">Subsección 1.1</button>
+                        <div class="sub-content">
+                            <p>Contenido de la subsección 1.1.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <button class="toggle">Sección 2</button>
+            <div class="content">
+                <p>Contenido de la sección 2.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const toggles = document.querySelectorAll('.toggle');
+
+        toggles.forEach(toggle => {
+            toggle.addEventListener('click', () => {
+                const content = toggle.nextElementSibling;
+                content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
