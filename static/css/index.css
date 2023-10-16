@@ -174,15 +174,21 @@
   }
 
   .panel-footer {
+    
     background-color: #333333;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height: 200px;
+    color: white;
+    text-align: center;
+    height: 100px;
   }
 
   .panel-cumplimiento {
     background-color: #FFFFFF;
     width: 100%;
-    height: 300px;
+    height: auto;
   }
 
 
@@ -194,5 +200,15 @@
   }
 
 
-  /* Title slide */
+  /* Cumplimiento section */
 
+  .box img {
+    width: 100%;
+    height: auto;
+
+  }
+  
+  .box1 img {
+    object-fit: cover;
+  }
+  

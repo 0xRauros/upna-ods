@@ -29,11 +29,12 @@
 
         <!-- Navigation menu bar -->
         <nav class="navbar">
-            <a href="index.html" class="text-left p-2 nav-menu hover-underline-animation">HOME</a>
+            <a href="index.html" class="text-left p-2 nav-menu hover-underline-animation"><i class="fa-solid fa-house"></i> HOME</a>
             <div class="nav-menu">
-                <a href="#herramienta-trabajo" class="text-right p-2 hover-underline-animation">Herramienta</a>
-                <a href="templates/grupo_trabajo.html" class="text-right p-2 hover-underline-animation">Grupo de trabajo</a>
-                <a href="https://parlamentodenavarra.es/sites/default/files/noticias-archivos-adjuntos/22-2-21Pacto%20Navarro%20contra%20la%20Pobreza%20y%20la%20desigualdad.pdf" class="text-right p-2 hover-underline-animation" target="_blank">Pacto</a>
+                <a href="#herramienta-trabajo" class="text-right p-2 hover-underline-animation"><i class="fa-solid fa-screwdriver-wrench"></i> Herramienta</a>
+                <a href="templates/grupo_trabajo.html" class="text-right p-2 hover-underline-animation"><i class="fa-solid fa-people-group"></i> Grupo de trabajo</a>
+                <a href="https://parlamentodenavarra.es/sites/default/files/noticias-archivos-adjuntos/22-2-21Pacto%20Navarro%20contra%20la%20Pobreza%20y%20la%20desigualdad.pdf" 
+                class="text-right p-2 hover-underline-animation" target="_blank"><i class="fa-regular fa-handshake"></i> Pacto</a>
             </div>
         </nav>
 
@@ -372,6 +373,22 @@
 
     <div class="panel-cumplimiento">
         <h2 class="fancy" style="--w: 50vw;--c: #79c48a;--b:4px;--g:-5px" id="herramienta-trabajo">Cumplimiento del pacto</h2> 
+        <div class="row">
+            <div class="col">
+                
+                    <div class="box p-4">
+                        <img src="static/img/graficos/cumplimiento_pacto_01.png" width="" alt="cumplimiento pacto img 01">
+                    </div>
+             
+            </div>
+            <div class="col">
+            
+                    <div class="box p-4">
+                        <img src="static/img/graficos/cumplimiento_pacto_02.png" width="" alt="cumplimiento pacto img 02">
+                    </div>
+                        
+            </div>
+        </div>
     </div>
 
     <div class="panel-footer"></div>
@@ -383,22 +400,8 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
             crossorigin="anonymous"></script>
     <!-- end of Bootstrap JS -->
-    <!-- <script>
-
-        setInterval(() => {
-            let title = document.getElementById("web-title").innerHTML;
-
-            if (title === "PACTO NAVARRO CONTRA LA POBREZA Y LA DESIGUALDAD") {
-                document.getElementById("web-title").innerHTML = "POBREZIAREN ETA DESBERDINKERIAREN AURKAKO NAFARROAKO ITUNA"
-                document.getElementById("web-title").className = "animate__animated animate__fadeInRight animate__delay-1s"
-            }
-            else {
-                document.getElementById("web-title").innerHTML = "PACTO NAVARRO CONTRA LA POBREZA Y LA DESIGUALDAD"
-            }
-
-        }, 5000);
-
-    </script> -->
+    <script src="https://kit.fontawesome.com/961d7b02e1.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
 
