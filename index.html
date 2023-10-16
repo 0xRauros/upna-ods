@@ -40,11 +40,21 @@
         <!-- end of navigation menu bar -->
         <!-- Content -->
             
-        <div class="jumbotron center animate__animated animate__fadeInRight animate__delay-1s">
-            <h1 class="text-title">
-                PACTO NAVARRO CONTRA LA DESIGUALDAD Y LA POBREZA
-            </h1>
-            <p class="title-date text-white display-6 font-weight-bold">2023 - 2030</p>
+        <div class="jumbotron  animate__animated animate__fadeInRight animate__delay-1s">
+            <div class="row pt-4">
+                <div class="col">
+                    <h1 class="text-title p-4" id="web-title">
+                        PACTO NAVARRO CONTRA LA DESIGUALDAD Y LA POBREZA
+                    </h1>
+                </div>
+                <div class="col">
+                    <h1 class="text-title p-4">
+                        POBREZIAREN ETA DESBERDINKERIAREN AURKAKO NAFARROAKO ITUNA
+                    </h1>
+                </div>
+                <p class="title-date text-white display-6 font-weight-bold text-center">2023 - 2030</p>
+            </div>
+            
         </div>
                     
     </div>
@@ -373,6 +383,22 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
             crossorigin="anonymous"></script>
     <!-- end of Bootstrap JS -->
+    <!-- <script>
+
+        setInterval(() => {
+            let title = document.getElementById("web-title").innerHTML;
+
+            if (title === "PACTO NAVARRO CONTRA LA POBREZA Y LA DESIGUALDAD") {
+                document.getElementById("web-title").innerHTML = "POBREZIAREN ETA DESBERDINKERIAREN AURKAKO NAFARROAKO ITUNA"
+                document.getElementById("web-title").className = "animate__animated animate__fadeInRight animate__delay-1s"
+            }
+            else {
+                document.getElementById("web-title").innerHTML = "PACTO NAVARRO CONTRA LA POBREZA Y LA DESIGUALDAD"
+            }
+
+        }, 5000);
+
+    </script> -->
 </body>
 </html>
 
